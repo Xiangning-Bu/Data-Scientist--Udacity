@@ -14,4 +14,4 @@ pandas, numpy, matplotlib, seaborn and sklearn
 
 ## Result 
 - A descriptive Jupyter Notebook
-- [**Medium post**](https://medium.com)
+- [**Medium post**](https://medium.com/@xiangningbu/2022-boston-airbnb-data-analysis-5fc1c4727b4)
