@@ -8,7 +8,7 @@ To answer general business questions about Boston Airbnb such as:
 
 ## File Description
 - listings.csv: Listings data for Boston Airbnb 2022. 
-- Boston_Airbnb_2022.ipynb: Notebook coontaining the data analysis
+- Boston_Airbnb_2022.ipynb: Notebook containing the data analysis
 
 ## Libraries 
 pandas, numpy, matplotlib, seaborn and sklearn
