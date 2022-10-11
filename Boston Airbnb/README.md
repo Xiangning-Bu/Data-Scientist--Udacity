@@ -6,8 +6,9 @@ To answer general business questions about Boston Airbnb such as:
 - Which kind of the room is more popular?
 - What are the popular amenities in the room?
 
-## Dataset
-- Listing data for Boston 2022. Link: https://insideairbnb.com/get-the-data/
+## File Description
+- listings.csv: Listings data for Boston Airbnb 2022. 
+- Boston_Airbnb_2022.ipynb: Notebook containing the data analysis
 
 ## Libraries 
 pandas, numpy, matplotlib, seaborn and sklearn
@@ -15,3 +16,7 @@ pandas, numpy, matplotlib, seaborn and sklearn
 ## Result 
 - A descriptive Jupyter Notebook
 - [**Medium post**](https://medium.com/@xiangningbu/2022-boston-airbnb-data-analysis-5fc1c4727b4)
+
+## Acknowlegement and Licensing: 
+- Data source: [**Boston Airbnb Open Data**](https://insideairbnb.com/get-the-data/)
+- Thanks to the team from Udacity of Data Scientist
