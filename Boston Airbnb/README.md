@@ -19,4 +19,4 @@ pandas, numpy, matplotlib, seaborn and sklearn
 
 ## Acknowlegement and Licensing: 
 - Data source: [**Boston Airbnb Open Data**](https://insideairbnb.com/get-the-data/)
-- Thanks to the team from Udacity of Data Scientist
+- Thanks to the team of Data Scientist Program from Udacity
