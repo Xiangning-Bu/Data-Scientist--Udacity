@@ -1,0 +1,5 @@
+**/Disaster_response_pipeline_project/env/
+
+**/Disaster_response_pipeline_project/models/classifier.pkl
+
+**/Disaster_response_pipeline_project/data/DisasterResponse.db
