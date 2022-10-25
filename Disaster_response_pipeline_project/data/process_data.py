@@ -42,9 +42,12 @@ def clean_data(df):
     #change column name
     categories.columns = category_colnames
 
-    #convert category values to 0 or 1
+    #convert category values to 0, 1 or 2
     for col in categories:
         categories[col]= categories[col].astype(str).str[-1].astype(int)
+        
+    #Drop rows whose "related" value is 2
+    categories = categories[categories['related'] != 2]
 
     #replace categories column in df with new category colymns
     df.drop(columns=['categories'], inplace = True)
