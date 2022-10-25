@@ -63,7 +63,16 @@ def build_model():
         ('clf', MultiOutputClassifier(RandomForestClassifier()))
     ])
 
-    return pipeline
+    # improvement of accuray by hyperparameter tuning  
+    parameters = {'tfidf__use_idf':(True, False),
+              'clf__estimator__n_estimators': [50, 100],
+              'clf__estimator__min_samples_split': [2, 4],
+              'vect__ngram_range': ((1, 1), (1, 2)),
+              'clf__estimator__max_features': ['auto', 'sqrt']}
+
+    cv= GridSearchCV(pipeline, param_grid=parameters,  cv=3, n_jobs=-1, verbose=1)
+
+    return cv
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
