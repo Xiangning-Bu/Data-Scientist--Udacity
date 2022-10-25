@@ -17,8 +17,8 @@ There are three sections:
     - run.py # Flask file that runs app
 
 2. data
-    - disaster_categories.csv # data to process
-    - disaster_messages.csv # data to process
+    - disaster_categories.csv: Categories of the messages
+    - disaster_messages.csv: Multilingual disaster response messages
     - process_data.py
 
 3. models
