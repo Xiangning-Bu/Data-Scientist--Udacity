@@ -60,7 +60,7 @@ def save_data(df, database_filename):
     """ Save the dataset to an sqlite database """
 
     engine = create_engine(f'sqlite:///{database_filename}')
-    df.to_sql('DisasterMessages', engine, index=False)
+    df.to_sql('DisasterMessages', engine, index=False, if_exists='replace')
 
 
 def main():
