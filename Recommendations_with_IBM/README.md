@@ -11,8 +11,9 @@ This project aims to analyze the interactions between users and articles on the 
 pandas, numpy, matplotlib, pickle
 
 ## Contents
-I. Exploratory Data Analysis 
-II. Rank Based Recommendations 
-III. User-User Based Collaborative Filtering
-IV. Matrix Factorization
-V. Concluding
+
+  *I. Exploratory Data Analysis*   
+  *II. Rank Based Recommendations*    
+  *III. User-User Based Collaborative Filtering*    
+  *IV. Matrix Factorization*   
+  *V. Concluding*   
