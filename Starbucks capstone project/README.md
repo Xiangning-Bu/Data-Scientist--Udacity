@@ -13,12 +13,12 @@ For more details about the findings, please read the [**Medium post**](https://m
 - Starbucks_Capstone_notebook.ipynb: Notebook containing the data analysis
 
 ## Libraries 
-pandas
-numpy
-progressbar
-matplotlib
-seaborn 
-sklearn
+pandas   
+numpy    
+progressbar    
+matplotlib   
+seaborn    
+sklearn   
 
 ## Content sections
 - Introduction
