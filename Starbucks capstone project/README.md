@@ -20,7 +20,7 @@ matplotlib
 seaborn 
 sklearn
 
-##Content sections
+## Content sections
 - Introduction
 - Problem Statement
 - Overview of Datasets
